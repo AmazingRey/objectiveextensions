@@ -106,7 +106,7 @@
 		id value = [NSKeyedUnarchiver unarchiveObjectWithData:valueData];
 		return value;
 	} else {
-		NSAssert2(queryResult == errSecItemNotFound, @"Received mismatched status (%ld) while retriveing keychain value for key %@", queryResult, aKey);
+		NSAssert2(queryResult == errSecItemNotFound, @"Received mismatched status (%ld) while retrieving keychain value for key %@", queryResult, aKey);
 	}
 	
 	return nil;
