@@ -15,9 +15,7 @@
 
 typedef void (^UIAlertViewButtonItemAction)();
 
-@interface UIAlertViewButtonItem : NSObject{
-    
-}
+@interface UIAlertViewButtonItem : NSObject
 
 @property (strong, nonatomic)   NSString*                       label;
 @property (copy, nonatomic)     UIAlertViewButtonItemAction   action;

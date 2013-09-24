@@ -9,7 +9,6 @@
 //  Gertjan Leemans
 //
 //  Created by Gertjan Leemans on 22/05/12.
-//  Copyright (c) 2012 Gertjan Leemans. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
